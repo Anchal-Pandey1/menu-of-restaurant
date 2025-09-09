@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-image: url('foods.jpeg');
+    background-size: contain;
+    color: rgba(56, 20, 5, 0.719);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:5px;
+    padding-right: 30px;
+    font-size: 20px;
+    background-size: cover;
+    padding: 10px;
+}
+.wrapper{
+    perspective: 1000px;
+}
+
+.wrapper .mennu{
+    transform: rotateY(180deg);
+    transition: 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+   transform-style: preserve-3d; 
+}
+
+.mennu{
+    position: relative;
+}
+.wrapper:hover > .front-face{
+    transform: rotateY(0deg);
+}
+
+ul{
+padding-left: 20px;
+}
+
+.menu {
+    background-color:#f5a022;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+    width: 70%;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transform-style: preserve-3d;
+}
+
+.menu:hover {
+    box-shadow: 0 8px 16px;
+    transition: all 0.5s ease;
+    color:red;
+  font-size: large;
+    background-color:yellow;
+}
+
+.start{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.sou{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.items {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5px 0;
+}
+.soups{
+padding-top: 10px;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.menuu {
+    background-color:#FFA726;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+    width: 70%;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.wrapper:hover > .back-face{
+    transform: rotateY(0deg);
+}
+
+.menuu:hover {
+        box-shadow: 0 8px 16px;
+    transition: all 0.5s ease;
+    color:red;
+  font-size: large;
+    background-color:yellow;
+}
+
+.soft-drinks{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.itemss {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5px 0;
+}
+
+.alcoholic-beverages{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.vodka{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.cocktails{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
